@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<blocks>
+	<block type="modules_bookmark_contextuallist" display="order:manual" icon="list-block" label="&amp;modules.bookmark.bo.blocks.ContextualList;">
+		<parameters>
+			<parameter name="order" type="String" list-id="modules_bookmark/ordermethod" default-value="manual" />
+			<parameter name="navigation" type="String" list-id="modules_bookmark/navigation" />
+			<parameter name="displaycontainerlabel" type="Boolean" default-value="false" />
+		</parameters>
+	</block>
+	<block type="modules_bookmark_topic" icon="list-block" hidden="true" display="order:manual;navigation:onlycontainer">
+		<parameters>
+			<parameter name="order" type="String" list-id="modules_bookmark/ordermethod" default-value="manual" />
+			<parameter name="navigation" type="String" list-id="modules_bookmark/navigation" default-value="onlycontainer" />
+			<parameter name="displaycontainerlabel" type="Boolean" default-value="true" />
+		</parameters>
+	</block>
+</blocks>

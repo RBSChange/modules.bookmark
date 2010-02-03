@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlrewriting>
+  <rules>
+    <rule documentModel="bookmark" viewMode="detail">
+      <template>/bookmark/$title,$lang-$id</template>
+    </rule>
+    <rule documentModel="bookmark" viewMode="detail" lang="fr">
+      <template>/liens/$title,$lang-$id</template>
+    </rule>
+  </rules>
+</urlrewriting>

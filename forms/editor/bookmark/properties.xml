@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<panel>
+	<section labeli18n="modules.uixul.bo.doceditor.fieldsgroup.Title">
+		<field name="label" />
+		<field name="title" />
+		<field name="url" type="text"  />
+		<field name="comment" />
+		<field name="image" />
+		<field name="useImageAlt" />
+		<field name="imageAlt" />
+	</section>
+</panel>

@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<script>
+	<binding fileName="modules/media/persistentdocument/import/media_binding.xml" />
+	<binding fileName="modules/website/persistentdocument/import/website_binding.xml" />
+	<binding fileName="modules/bookmark/persistentdocument/import/bookmark_binding.xml" />
+	
+	<website byTag="default_modules_website_default-website" template="tplTwo">
+		<topic label="Annuaire de liens" id="bookmarktopic">
+			<topic label="Sous rubrique" id="bookmarktopicsub"></topic>
+			
+			<topic label="A venir..."></topic>
+			
+			<page label="Annuaire de liens" isIndexPage="true" indexingstatus="false">
+				<tag name="functional_bookmark_bookmark-list" />
+				<changecontent for="content-block">
+					<changeblock type="modules_bookmark_contextuallist" />
+				</changecontent>
+			</page>	
+		</topic>
+	</website>
+
+	<rootfolder module="media">
+		<folder label="Exemple de media Annuaire de liens">
+			<media
+				path="modules/bookmark/setup/sample/icon_assassin.png"
+				label="Assassin" title="Assassin" id="photo1" />
+			<media
+				path="modules/bookmark/setup/sample/icon_chanter.png"
+				label="Aède" title="Aède" id="photo2" />
+			<media
+				path="modules/bookmark/setup/sample/icon_cleric.png"
+				label="Clerc" title="Clerc" id="photo3" />
+			<media
+				path="modules/bookmark/setup/sample/icon_gladiator.png"
+				label="Gladiateur" title="Gladiateur" id="photo4" />
+			<media
+				path="modules/bookmark/setup/sample/icon_ranger.png"
+				label="Rôdeur" title="Rôdeur" id="photo5" />
+			<media
+				path="modules/bookmark/setup/sample/icon_sorcerer.png"
+				label="Sorcier" title="Sorcier" id="photo6" />
+			<media
+				path="modules/bookmark/setup/sample/icon_spiritmaster.png"
+				label="Spiritualiste" title="Spiritualiste" id="photo7" />
+			<media
+				path="modules/bookmark/setup/sample/icon_templar.png"
+				label="Templier" title="Templier" id="photo8" />
+		</folder>
+	</rootfolder>
+					
+	<rootfolder module="bookmark">
+		<linkedtopic refid="bookmarktopic">
+			<bookmark label="Praesent nisi nulla, rhoncus ac" title="Praesent nisi nulla, rhoncus ac"
+				url="http://www.rbs.fr" image-refid="photo1"
+				comment="Sed sapien risus, rhoncus ac, vehicula ac, vulputate ut, nibh. Praesent nisi nulla, bibendum dapibus, tincidunt sed, dapibus ac, orci. Duis vulputate. Morbi nunc. Donec libero nulla, suscipit eget, hendrerit sit amet, sollicitudin et, libero. Integer metus arcu, malesuada et, vestibulum vel, accumsan in, mi. Curabitur molestie. Vestibulum ut purus."
+			/>
+			
+			<bookmark label="Tincidunt sed, rhoncus ac" title="Tincidunt sed, rhoncus ac"
+				url="http://www.rbs.fr" image-refid="photo2"
+				comment="Sed sapien risus, rhoncus ac, vehicula ac, vulputate ut, nibh. Praesent nisi nulla, bibendum dapibus, tincidunt sed, dapibus ac, orci. Duis vulputate. Morbi nunc. Donec libero nulla, suscipit eget, hendrerit sit amet, sollicitudin et, libero. Integer metus arcu, malesuada et, vestibulum vel, accumsan in, mi. Curabitur molestie. Vestibulum ut purus."
+			/>
+
+			<bookmark label="vehicula ac" title="vehicula ac"
+				url="http://www.rbs.fr"
+				comment="Sed sapien risus, rhoncus ac, vehicula ac, vulputate ut, nibh. Praesent nisi nulla, bibendum dapibus, tincidunt sed, dapibus ac, orci. Duis vulputate. Morbi nunc. Donec libero nulla, suscipit eget, hendrerit sit amet, sollicitudin et, libero. Integer metus arcu, malesuada et, vestibulum vel, accumsan in, mi. Curabitur molestie. Vestibulum ut purus."
+			/>
+			
+			<bookmark label="Sed sapien risus, rhoncus ac" title="Sed sapien risus, rhoncus ac"
+				url="http://www.rbs.fr" image-refid="photo3"
+			/>
+
+			<bookmark label="Vulputate ut, nibh" title="Vulputate ut, nibh"
+				url="http://www.rbs.fr" image-refid="photo4"
+				comment="Sed sapien risus, rhoncus ac, vehicula ac, vulputate ut, nibh. Praesent nisi nulla, bibendum dapibus, tincidunt sed, dapibus ac, orci. Duis vulputate. Morbi nunc. Donec libero nulla, suscipit eget, hendrerit sit amet, sollicitudin et, libero. Integer metus arcu, malesuada et, vestibulum vel, accumsan in, mi. Curabitur molestie. Vestibulum ut purus."
+			/>
+			
+			<bookmark label="Cras tellus ligula" title="Cras tellus ligula"
+				url="http://www.rbs.fr" image-refid="photo1" />
+			
+			<bookmark label="Maecenas mauris nisl" title="Maecenas mauris nisl"
+				url="http://www.rbs.fr" image-refid="photo6"
+				comment="Sed sapien risus, rhoncus ac, vehicula ac, vulputate ut, nibh. Praesent nisi nulla, bibendum dapibus, tincidunt sed, dapibus ac, orci. Duis vulputate. Morbi nunc. Donec libero nulla, suscipit eget, hendrerit sit amet, sollicitudin et, libero. Integer metus arcu, malesuada et, vestibulum vel, accumsan in, mi. Curabitur molestie. Vestibulum ut purus."
+			/>
+
+			<bookmark label="Donec mollis eros nec" title="Donec mollis eros nec"
+				url="http://www.rbs.fr"
+				comment="Sed sapien risus, rhoncus ac, vehicula ac, vulputate ut, nibh. Praesent nisi nulla, bibendum dapibus, tincidunt sed, dapibus ac, orci. Duis vulputate. Morbi nunc. Donec libero nulla, suscipit eget, hendrerit sit amet, sollicitudin et, libero. Integer metus arcu, malesuada et, vestibulum vel, accumsan in, mi. Curabitur molestie. Vestibulum ut purus."
+			/>
+			
+			<bookmark label="Cum sociis natoque" title="Cum sociis natoque"
+				url="http://www.rbs.fr" image-refid="photo3"
+			/>
+
+			<bookmark label="Curabitur vel feugiat justo" title="Curabitur vel feugiat justo"
+				url="http://www.rbs.fr" image-refid="photo4"
+				comment="Sed sapien risus, rhoncus ac, vehicula ac, vulputate ut, nibh. Praesent nisi nulla, bibendum dapibus, tincidunt sed, dapibus ac, orci. Duis vulputate. Morbi nunc. Donec libero nulla, suscipit eget, hendrerit sit amet, sollicitudin et, libero. Integer metus arcu, malesuada et, vestibulum vel, accumsan in, mi. Curabitur molestie. Vestibulum ut purus."
+			/>	
+					
+			<topic byLabel="Sous rubrique">
+				<bookmark label="Praesent nisi nulla, rhoncus ac" title="Praesent nisi nulla, rhoncus ac"
+					url="http://www.rbs.fr" image-refid="photo5"
+				/>
+				
+				<bookmark label="Tincidunt sed, rhoncus ac" title="Tincidunt sed, rhoncus ac"
+					url="http://www.rbs.fr" image-refid="photo6"
+					comment="Sed sapien risus, rhoncus ac, vehicula ac, vulputate ut, nibh. Praesent nisi nulla, bibendum dapibus, tincidunt sed, dapibus ac, orci. Duis vulputate. Morbi nunc. Donec libero nulla, suscipit eget, hendrerit sit amet, sollicitudin et, libero. Integer metus arcu, malesuada et, vestibulum vel, accumsan in, mi. Curabitur molestie. Vestibulum ut purus."
+				/>
+	
+				<bookmark label="Sed sapien risus, rhoncus ac" title="Sed sapien risus, rhoncus ac"
+					url="http://www.rbs.fr" image-refid="photo7"
+				/>
+	
+				<bookmark label="Vulputate ut, nibh" title="Vulputate ut, nibh"
+					url="http://www.rbs.fr" image-refid="photo8"
+					comment="Sed sapien risus, rhoncus ac, vehicula ac, vulputate ut, nibh. Praesent nisi nulla, bibendum dapibus, tincidunt sed, dapibus ac, orci. Duis vulputate. Morbi nunc. Donec libero nulla, suscipit eget, hendrerit sit amet, sollicitudin et, libero. Integer metus arcu, malesuada et, vestibulum vel, accumsan in, mi. Curabitur molestie. Vestibulum ut purus."
+				/>				
+			</topic>
+		</linkedtopic>
+	</rootfolder>
+	
+	<preferences label="&amp;modules.bookmark.document.preferences.Edition-form-title;" 
+		nbitemperpage="5" 
+		msgforemptyfolder="Cette rubrique ne contient pas de lien." />
+</script>

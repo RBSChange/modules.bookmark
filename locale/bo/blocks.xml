@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<localization>
+  <entity id="ContextualList">
+    <locale lang="fr">liste de liens</locale>
+    <locale lang="en">links list</locale>
+    <locale lang="de">Liste der Links</locale>
+  </entity>
+</localization>

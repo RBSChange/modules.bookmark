@@ -1,0 +1,7 @@
+treechildren::-moz-tree-image(modules_bookmark_bookmark){
+	list-style-image: url(/icons/small/bookmark.png) ;
+}
+
+treechildren::-moz-tree-image(modules_bookmark_preferences){
+	list-style-image: url(/icons/small/bookmark.png) ;
+}

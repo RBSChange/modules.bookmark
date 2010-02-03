@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<script>
+	<binding fileName="modules/list/persistentdocument/import/list_binding.xml" />
+	<binding fileName="modules/generic/persistentdocument/import/generic_binding.xml" />
+	<binding fileName="modules/bookmark/persistentdocument/import/bookmark_binding.xml" />
+
+	<rootfolder module="preferences">
+		<bookmarkpreferences />
+	</rootfolder>
+
+	<systemfolder module="list" relatedmodule="bookmark">
+		<staticlist listid="modules_bookmark/ordermethod"
+			label="Méthode de tri des liens d'une liste" description="Méthode de tri des liens d'une liste">
+				<staticitem value="manual" label="&amp;modules.bookmark.bo.general.Manual;"/>
+				<staticitem value="alpha" label="&amp;modules.bookmark.bo.general.Alphanumeric;"/>
+		</staticlist>
+	
+		<staticlist listid="modules_bookmark/navigation"
+			label="Affichage spécifique d'une liste de liens" description="Affichage spécifique d'une liste de liens">
+				<staticitem value="onlycontainer" label="&amp;modules.bookmark.bo.general.OnlyContainer;"/>
+				<staticitem value="navigation" label="&amp;modules.bookmark.bo.general.WithNavigation;"/>
+		</staticlist>
+	</systemfolder>
+</script>

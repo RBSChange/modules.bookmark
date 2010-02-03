@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<localization>
+  <entity id="document-name">
+    <locale lang="fr">lien</locale>
+    <locale lang="en">bookmark</locale>
+    <locale lang="de">Link</locale>
+  </entity>
+  <entity id="edition-form-title">
+    <locale lang="fr">propriétés d'un lien</locale>
+    <locale lang="en">bookmark properties</locale>
+    <locale lang="de">Eigenschaften Link</locale>
+  </entity>
+  <entity id="label">
+    <locale lang="fr">nom</locale>
+    <locale lang="en">label</locale>
+    <locale lang="de">Name</locale>
+  </entity>
+  <entity id="label-help">
+    <locale lang="fr">texte du lien (exemple : RBS)</locale>
+    <locale lang="en">bookmark label (example: RBS)</locale>
+    <locale lang="de">Linktext (z.B.:RBS)</locale>
+  </entity>
+  <entity id="title">
+    <locale lang="fr">intitulé</locale>
+    <locale lang="en">title</locale>
+    <locale lang="de">Titel</locale>
+  </entity>
+  <entity id="title-help">
+    <locale lang="fr">intitulé du lien : utilisé pour l'attribut 'title' du lien (exemple : Aller sur le site de RBS)</locale>
+    <locale lang="en">title, used in the 'title' attribute of the link (example: Go to the RBS website)</locale>
+    <locale lang="de">Linktitel:für das Attribut 'title' des Links (z.B.:gehe zur RBS Webseite)</locale>
+  </entity>
+  <entity id="url">
+    <locale lang="fr">URL</locale>
+    <locale lang="en">URL</locale>
+    <locale lang="de">URL</locale>
+  </entity>
+  <entity id="url-help">
+    <locale lang="fr">URL de la page à lier (exemple : http://www.rbs.fr)</locale>
+    <locale lang="en">link's URL (example: http://www.rbs.fr)</locale>
+    <locale lang="de">URL der zu verlinkenden Seite (z.B.:http://www.rbs.fr)</locale>
+  </entity>
+  <entity id="comment">
+    <locale lang="fr">commentaire</locale>
+    <locale lang="en">comment</locale>
+    <locale lang="de">Kommentar</locale>
+  </entity>
+  <entity id="comment-help">
+    <locale lang="fr">commentaire associé au lien, affiché sur le site</locale>
+    <locale lang="en">comment shown in front-office</locale>
+    <locale lang="de">Dem Link assoziierter Kommentar, auf der Website angezeigt</locale>
+  </entity>
+  <entity id="image">
+    <locale lang="fr">image</locale>
+    <locale lang="en">image</locale>
+    <locale lang="de">Bild</locale>
+  </entity>
+  <entity id="image-help">
+    <locale lang="fr">sélectionner une image et la faire glisser depuis les ressources du module Médiathèque.</locale>
+    <locale lang="en">select an image and drop it from the Media module's resources.</locale>
+    <locale lang="de">Ein Bild wählen und es aus den Ressourcen des Moduls Mediathek rüberziehen.</locale>
+  </entity>
+  <entity id="useImageAlt">
+    <locale lang="fr">Utiliser l'alternative textuelle de l'image</locale>
+  </entity>
+  <entity id="useImageAlt-help">
+    <locale lang="fr">Si cette option est activée, l'alternative textuelle de l'image sera utilisée dans la fiche du lien</locale>
+  </entity>
+  <entity id="imageAlt">
+    <locale lang="fr">Alternative de l'image</locale>
+  </entity>
+  <entity id="imageAlt-help">
+    <locale lang="fr">Vous pouvez régler la valeur de l'alternative textuelle utilisée indépendamment de l'alternative textuelle de l'image. Laissez le champ vide si le visuel est purement décoratif.</locale>
+  </entity>
+</localization>

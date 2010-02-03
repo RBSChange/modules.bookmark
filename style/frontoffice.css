@@ -1,0 +1,55 @@
+.bookmark-abstractdirectory-block .column-one{
+	float: left;
+	width: 73.2%;
+	padding: 1.2%;
+	padding-left: 0;
+	margin-top: 12px;
+}
+.bookmark-abstractdirectory-block .column-two{
+	float: left;
+	width: 24.4%;
+	padding: 0 1.2%;
+	padding-right: 0;
+	margin-top: 22px;
+}
+.bookmark-abstractdirectory-block ul.folder-vertical{
+	list-style-type: none;
+}
+.bookmark-abstractdirectory-block ul.folder-vertical li{
+	background: url(/media/frontoffice/folder.png) no-repeat;
+	text-align: left;
+	padding: 2px 0 2px 20px;
+}
+.bookmark-abstractdirectory-block ul.folder-horizontal{
+	list-style-type: none;
+	margin-top: 12px;
+	margin-bottom: 6px;
+}
+.bookmark-abstractdirectory-block ul.folder-horizontal li{
+	display: inline;
+	background: url(/media/frontoffice/breadcrumb_subfolder.png) no-repeat 0 .1em;
+	padding: 2px 0 2px 40px;
+}
+.bookmark-abstractdirectory-block ul.folder-horizontal li.first{
+	background: none;
+	padding: 2px 0 2px 0;
+}
+.bookmark-abstractdirectory-block ul.folder-horizontal li img{
+	margin-right: 6px;
+	vertical-align: middle;
+}
+.bookmark-abstractdirectory-block ol.module-list{
+	list-style: none;
+	display: block;
+}
+.bookmark-abstractdirectory-block ol.module-list li{
+	margin-bottom: 20px;
+	display: block;
+	float: left;
+	width: 100%;
+}
+.bookmark-abstractdirectory-block ol.module-list li span a{
+	float: left;
+}
+
+@import url(/modules/bookmark/style/frontoffice.!xul.all.css);

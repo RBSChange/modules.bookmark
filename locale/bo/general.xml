@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<localization>
+  <entity id="module-name">
+    <locale lang="fr">annuaire de lien</locale>
+    <locale lang="en">bookmarks</locale>
+    <locale lang="de">Verzeichnis der Links</locale>
+  </entity>
+  <entity id="tree-root-name">
+    <locale lang="fr">annuaire de lien</locale>
+    <locale lang="en">bookmarks</locale>
+    <locale lang="de">Verzeichnis der Links</locale>
+  </entity>
+  <entity id="system-folder-name">
+    <locale lang="fr">annuaire de lien</locale>
+    <locale lang="en">bookmarks</locale>
+    <locale lang="de">Verzeichnis der Links</locale>
+  </entity>
+  <entity id="Alphanumeric">
+    <locale lang="fr">alphanumérique</locale>
+    <locale lang="en">alphanumeric</locale>
+    <locale lang="de">alphanumerisch</locale>
+  </entity>
+  <entity id="Manual">
+    <locale lang="fr">manuel</locale>
+    <locale lang="en">manual</locale>
+    <locale lang="de">manuell</locale>
+  </entity>
+  <entity id="OnlyContainer">
+    <locale lang="fr">dossier seulement</locale>
+    <locale lang="en">folder only</locale>
+    <locale lang="de">nur Ordner</locale>
+  </entity>
+  <entity id="WithNavigation">
+    <locale lang="fr">afficher la navigation</locale>
+    <locale lang="en">show navigation</locale>
+    <locale lang="de">Navigation anzeigen</locale>
+  </entity>
+  <entity id="column.url">
+    <locale lang="fr">Url</locale>
+    <locale lang="en">Url</locale>
+    <locale lang="de">Url</locale>
+  </entity>
+  <entity id="column.pathof">
+    <locale lang="fr">chemin</locale>
+    <locale lang="en">path</locale>
+  </entity>
+</localization>

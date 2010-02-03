@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<actions extends="generic">
+	<action name="createBookmark" label="&amp;modules.bookmark.bo.actions.Create-Bookmark;">
+		<parameter name="listWidget" />
+		<body><![CDATA[
+					this.createDocumentEditor('modules_bookmark_bookmark', listWidget.getSelectedItems()[0].id);
+		]]></body>
+	</action>
+</actions>

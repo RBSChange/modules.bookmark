@@ -1,0 +1,4 @@
+<h3 change:h="" id="bookmark-${item/getId}">${item/getLabel} <a change:edit="document item" /></h3>
+<img tal:condition="item/getImage" change:media="document item/getImage; format 'modules.media.frontoffice/minithumbnail'; class 'float-left'; alt item/getImageAltComputed" />
+<p tal:content="item/getCommentAsHtml" />
+<a change:link="href item/getUrl; title item/getTitle; popup 'true'" tal:content="item/getLabel" />

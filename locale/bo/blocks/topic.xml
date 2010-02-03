@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<localization>
+  <entity id="order">
+    <locale lang="fr">Méthode de tri</locale>
+    <locale lang="de">Sortierungsmethode</locale>
+  </entity>
+  <entity id="order-help">
+    <locale lang="fr">Méthode de tri des liens</locale>
+    <locale lang="de">Sortierungsmethode der Links</locale>
+  </entity>
+  <entity id="navigation">
+    <locale lang="fr">Option de navigation</locale>
+    <locale lang="de">Navigationsoption</locale>
+  </entity>
+  <entity id="navigation-help">
+    <locale lang="fr">Option de navigation</locale>
+    <locale lang="de">Navigationsoption</locale>
+  </entity>
+</localization>

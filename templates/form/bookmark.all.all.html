@@ -1,0 +1,18 @@
+<form
+	change:form="beanClass bookmark_persistentdocument_bookmark">
+	<ul change:errors="" />
+	<input change:field="name beanId" hidden="true" />
+	<ol>
+		<li class="first"><input change:field="name label" /></li>
+		<li><input change:field="name title" /></li>
+		<li><input change:textinput="name url" labeled="true" size="60" /></li>
+		<li><input change:field="name comment" /></li>
+		<li><input change:documentpicker="name image" /></li>
+		<li><input change:field="name useImageAlt" /></li>
+		<li class="last"><input change:field="name imageAlt" /></li>
+	</ol>
+	<p>
+		<input change:submit="" name="${submitAction}" value="Enregistrer" class="button" />
+		<a tal:condition="edit_from_url" class="button" href="${edit_from_url}" onclick="${cancel_confirm}">Annuler</a>
+	</p>
+</form>
