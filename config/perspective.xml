@@ -3,20 +3,34 @@
 	<models>
 		<model name="modules_generic/rootfolder">
 			<children>
-				<child model="modules_website/topic" from="topics"/>
+				<child model="modules_website/websitetopicsfolder" />
+			</children>
+			<drops>
+				<drop model="modules_website/websitetopicsfolder" action="move" />
+			</drops>
+			<contextactions>
+				<contextaction name="edit" />
+				<contextaction name="addTopic" />
+				<contextaction name="openTreeNodeOrder" />		
+			</contextactions>
+		</model>
+		<model name="modules_website/websitetopicsfolder">
+			<children>
+				<child model="modules_website/topic" from="topics" />
+				<child model="modules_website/systemtopic" from="topics" />
 			</children>
 			<columns>
 				<column name="pathOf" label="PathOf" flex="3" />
 			</columns>
 			<contextactions>
-				<contextaction name="edit" />
-				<contextaction name="addTopic" />
-				<contextaction name="openTopicOrder" />
+				<contextaction name="openFolder" />
+				<contextaction name="openTopicOrder"/>
 			</contextactions>
-		</model>
+		</model>		
 		<model name="modules_website/topic">
 			<children>
 				<child model="modules_website/topic" />
+				<child model="modules_website/systemtopic" />
 				<child model="modules_bookmark/bookmark" />
 			</children>
 			<columns>
@@ -26,10 +40,31 @@
 				<drop model="modules_bookmark/bookmark" action="move" />
 			</drops>
 			<contextactions>
+				<contextaction name="openFolder" />
 				<contextaction name="edit" />
 				<contextaction name="createBookmark" />
 			</contextactions>
 		</model>
+		<model name="modules_website/systemtopic">
+			<children>
+				<child model="modules_website/topic" />
+				<child model="modules_website/systemtopic" />
+				<child model="modules_bookmark/bookmark" />
+			</children>
+			<columns>
+				<column name="url" label="url" flex="2"/>
+			</columns>			
+			<drops>
+				<drop model="modules_bookmark/bookmark" action="move" />
+			</drops>
+			<contextactions>
+				<contextaction name="openFolder" />
+				<contextaction name="edit" />
+				<contextaction name="createBookmark" />
+			</contextactions>
+		</model>
+
+		
 		<model name="modules_bookmark/bookmark">
 			<contextactions>
 				<contextaction name="edit" />
@@ -46,6 +81,7 @@
 		<toolbarbutton name="reactivate" />
 	</toolbar>
 	<actions>
+		<action name="openFolder" icon="open-folder" label="&amp;modules.uixul.bo.actions.OpenFolder;" />
 		<action name="refresh" single="true" icon="refresh" label="&amp;modules.uixul.bo.actions.Refresh;"/>
 		<action name="delete" permission="Delete" icon="delete" label="&amp;modules.uixul.bo.actions.Delete;" />
 		<action name="edit" single="true" permission="Load" icon="edit" label="&amp;modules.uixul.bo.actions.Edit;" />
@@ -55,5 +91,7 @@
 		<action name="move" permission="Move" icon="up_down" label="&amp;modules.uixul.bo.actions.Move;" />
 		<action name="openTopicOrder" single="true" permission="Order" icon="sort" label="&amp;modules.uixul.bo.actions.Set-children-order;"/>
 		<action name="addTopic" permission="Update_rootfolder" icon="add-topic" label="&amp;modules.uixul.bo.actions.AddTopic;" />
+		<action name="openTreeNodeOrder" single="true" permission="Order" icon="sort" label="&amp;modules.uixul.bo.actions.Set-children-order;" />
+
 	</actions>
 </perspective>
