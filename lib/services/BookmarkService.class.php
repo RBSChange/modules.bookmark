@@ -44,10 +44,10 @@ class bookmark_BookmarkService extends f_persistentdocument_DocumentService
 	 *
 	 * @param bookmark_persistentdocument_bookmark $document
 	 * @param string $forModuleName
-	 * @param unknown_type $allowedSections
+	 * @param array $allowedSections
 	 * @return array
 	 */
-	public function getResume($document, $forModuleName, $allowedSections)
+	public function getResume($document, $forModuleName, $allowedSections = null)
 	{
 		$data = parent::getResume($document, $forModuleName, $allowedSections);
 		$data['properties']['url'] = $document->getUrl();
