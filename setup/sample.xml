@@ -10,7 +10,7 @@
 			
 			<topic label="A venir..."></topic>
 			
-			<page label="Annuaire de liens" isIndexPage="true" indexingstatus="false">
+			<page label="Annuaire de liens" isIndexPage="true" indexingstatus="false" navigationVisibility="hidden">
 				<tag name="functional_bookmark_bookmark-list" />
 				<changecontent for="content-block">
 					<changeblock type="modules_bookmark_contextuallist" />
