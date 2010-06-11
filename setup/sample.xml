@@ -4,7 +4,7 @@
 	<binding fileName="modules/website/persistentdocument/import/website_binding.xml" />
 	<binding fileName="modules/bookmark/persistentdocument/import/bookmark_binding.xml" />
 	
-	<website byTag="default_modules_website_default-website" template="tplTwo">
+	<website byTag="default_modules_website_default-website" template="webfactory/tplTwo">
 		<topic label="Annuaire de liens" id="bookmarktopic">
 			<topic label="Sous rubrique" id="bookmarktopicsub"></topic>
 			
