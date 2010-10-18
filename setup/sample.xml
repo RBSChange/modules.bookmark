@@ -15,9 +15,11 @@
 				<changecontent for="content-block">
 					<changeblock type="modules_bookmark_contextuallist" />
 				</changecontent>
+				<execute method="setPageRefAsIndex" />
 			</page>	
 		</topic>
 	</website>
+	
 
 	<rootfolder module="media">
 		<folder label="Exemple de media Annuaire de liens">
