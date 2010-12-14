@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<i18n baseKey="m.bookmark.errors" lcid="en_GB">
+  <key id="modules-bookmark-getpreferencesdocument">you don't have the appropriate permission to perform this operation : ″Open preferences window″</key>
+  <key id="modules-bookmark-move-rootfolder">you don't have the appropriate permission to perform this operation : ″Add a topic″</key>
+  <key id="modules-bookmark-remove-topic">you don't have the appropriate permission to perform this operation : ″Delete a topic″</key>
+  <key id="modules-bookmark-order">you don't have the appropriate permission to perform this operation : ″Sort out the elements″</key>
+  <key id="modules-bookmark-activate-bookmark">you don't have the appropriate permission to perform this operation : ″Activate a link″</key>
+  <key id="modules-bookmark-cancel-bookmark">you don't have the appropriate permission to perform this operation : ″Cancel a link″</key>
+  <key id="modules-bookmark-enabled">you don't have the appropriate permission to perform this operation : ″Access to the module″</key>
+</i18n>

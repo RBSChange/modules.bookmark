@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<i18n baseKey="m.bookmark.document.bookmark" lcid="fr_FR">
+  <key id="document-name">lien</key>
+  <key id="label">nom</key>
+  <key id="label-help">texte du lien (exemple : RBS)</key>
+  <key id="title">intitulé</key>
+  <key id="title-help">intitulé du lien : utilisé pour l'attribut 'title' du lien (exemple : Aller sur le site de RBS)</key>
+  <key id="url">URL</key>
+  <key id="url-help">URL de la page à lier (exemple : http://www.rbs.fr)</key>
+  <key id="comment">commentaire</key>
+  <key id="comment-help">commentaire associé au lien, affiché sur le site</key>
+  <key id="image">image</key>
+  <key id="image-help">sélectionner une image et la faire glisser depuis les ressources du module Médiathèque.</key>
+  <key id="useimagealt">Utiliser l'alternative textuelle de l'image</key>
+  <key id="useimagealt-help">Si cette option est activée, l'alternative textuelle de l'image sera utilisée dans la fiche du lien</key>
+  <key id="imagealt">Alternative de l'image</key>
+  <key id="imagealt-help">Vous pouvez régler la valeur de l'alternative textuelle utilisée indépendamment de l'alternative textuelle de l'image. Laissez le champ vide si le visuel est purement décoratif.</key>
+</i18n>

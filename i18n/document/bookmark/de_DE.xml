@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<i18n baseKey="m.bookmark.document.bookmark" lcid="de_DE">
+  <key id="document-name">Link</key>
+  <key id="label">Name</key>
+  <key id="label-help">Linktext (z.B.:RBS)</key>
+  <key id="title">Titel</key>
+  <key id="title-help">Linktitel:für das Attribut 'title' des Links (z.B.:gehe zur RBS Webseite)</key>
+  <key id="url">URL</key>
+  <key id="url-help">URL der zu verlinkenden Seite (z.B.:http://www.rbs.fr)</key>
+  <key id="comment">Kommentar</key>
+  <key id="comment-help">Dem Link assoziierter Kommentar, auf der Website angezeigt</key>
+  <key id="image">Bild</key>
+  <key id="image-help">Ein Bild wählen und es aus den Ressourcen des Moduls Mediathek rüberziehen.</key>
+</i18n>

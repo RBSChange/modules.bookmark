@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<i18n baseKey="m.bookmark.bo.blocks.topic" lcid="de_DE">
+  <key id="order">Sortierungsmethode</key>
+  <key id="order-help">Sortierungsmethode der Links</key>
+  <key id="navigation">Navigationsoption</key>
+  <key id="navigation-help">Navigationsoption</key>
+</i18n>

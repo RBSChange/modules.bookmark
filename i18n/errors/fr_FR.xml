@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<i18n baseKey="m.bookmark.errors" lcid="fr_FR">
+  <key id="modules-bookmark-getpreferencesdocument">vous n'avez pas les permissions suffisantes pour effectuer l'action suivante : ″Ouvrir les préférences″</key>
+  <key id="modules-bookmark-move-rootfolder">vous n'avez pas les permissions suffisantes pour effectuer l'action suivante : ″Ajouter une rubrique″</key>
+  <key id="modules-bookmark-remove-topic">vous n'avez pas les permissions suffisantes pour effectuer l'action suivante : ″Supprimer une rubrique″</key>
+  <key id="modules-bookmark-order">vous n'avez pas les permissions suffisantes pour effectuer l'action suivante : ″Modifier l'ordre des éléments″</key>
+  <key id="modules-bookmark-activate-bookmark">vous n'avez pas les permissions suffisantes pour effectuer l'action suivante : ″Activer un lien″</key>
+  <key id="modules-bookmark-cancel-bookmark">vous n'avez pas les permissions suffisantes pour effectuer l'action suivante : ″Annuler un lien″</key>
+  <key id="modules-bookmark-enabled">vous n'avez pas les permissions suffisantes pour effectuer l'action suivante : ″Accès au module″</key>
+</i18n>

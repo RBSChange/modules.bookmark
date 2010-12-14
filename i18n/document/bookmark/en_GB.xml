@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<i18n baseKey="m.bookmark.document.bookmark" lcid="en_GB">
+  <key id="document-name">bookmark</key>
+  <key id="label">label</key>
+  <key id="label-help">bookmark label (example: RBS)</key>
+  <key id="title">title</key>
+  <key id="title-help">title, used in the 'title' attribute of the link (example: Go to the RBS website)</key>
+  <key id="url">URL</key>
+  <key id="url-help">link's URL (example: http://www.rbs.fr)</key>
+  <key id="comment">comment</key>
+  <key id="comment-help">comment shown in front-office</key>
+  <key id="image">image</key>
+  <key id="image-help">select an image and drop it from the Media module's resources.</key>
+</i18n>

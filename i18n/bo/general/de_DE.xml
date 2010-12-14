@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<i18n baseKey="m.bookmark.bo.general" lcid="de_DE">
+  <key id="module-name">Verzeichnis der Links</key>
+  <key id="tree-root-name">Verzeichnis der Links</key>
+  <key id="system-folder-name">Verzeichnis der Links</key>
+  <key id="alphanumeric">alphanumerisch</key>
+  <key id="manual">manuell</key>
+  <key id="onlycontainer">nur Ordner</key>
+  <key id="withnavigation">Navigation anzeigen</key>
+</i18n>

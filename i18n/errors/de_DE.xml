@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<i18n baseKey="m.bookmark.errors" lcid="de_DE">
+  <key id="modules-bookmark-getpreferencesdocument">Sie haben nicht die Rechte folgende Aktion auszuführen:″Präferenzen öffnen″</key>
+  <key id="modules-bookmark-move-rootfolder">Sie haben nicht die Rechte folgende Aktion auszuführen:″Rubrik hinzufügen″</key>
+  <key id="modules-bookmark-remove-topic">Sie haben nicht die Rechte folgende Aktion auszuführen:″Rubrik löschen″</key>
+  <key id="modules-bookmark-order">Sie haben nicht die Rechte folgende Aktion auszuführen:″Elemente sortieren″</key>
+  <key id="modules-bookmark-activate-bookmark">Sie haben nicht die Rechte folgende Aktion auszuführen:″PEinen Link aktivieren″</key>
+  <key id="modules-bookmark-cancel-bookmark">Sie haben nicht die Rechte folgende Aktion auszuführen:″Einen Link löschen″</key>
+  <key id="modules-bookmark-enabled">Sie haben nicht die Rechte folgende Aktion auszuführen:″Zugang zum Modul″</key>
+</i18n>
